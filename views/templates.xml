@@ -1,0 +1,4 @@
+<odoo>
+    <menuitem id="mnu_todo_root" name="TodoTasks"/>
+    <menuitem id="todo_root" name="TodoTasks" parent="mnu_todo_root"/>
+</odoo>
