@@ -22,13 +22,13 @@
     # any module necessary for this one to work correctly
     'depends':['base','mail'],
 
-    # always loaded
     'data': [
         'security/ir.model.access.csv',
         'views/templates.xml',
         'views/views.xml',
+        'toDo_task/report_task.xml',
     ],
-    # only loaded in demonstration mode
+
     'demo': [
         'demo/demo.xml',
     ],
